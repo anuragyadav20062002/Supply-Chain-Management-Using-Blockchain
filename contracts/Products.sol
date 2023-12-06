@@ -25,6 +25,7 @@ contract Products {
         uint256 manDateEpoch,
         uint256 expDateEpoch
     );
+    
     event ProductOwnershipTransfer(
         string name,
         string manufacturerName,

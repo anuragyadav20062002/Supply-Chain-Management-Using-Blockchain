@@ -9,8 +9,8 @@ describe("SupplyChain", function () {
         const users = await Users.deploy()
         const products = await Products.deploy()
         const supplyChain = await SupplyChain.deploy(
-            "Aditya Awasthi",
-            "adityaawasthi.30@smail.com"
+            "Anurag Yadav",
+            "anuragyadav20602@gmail.com"
         )
 
         await users.deployed()
